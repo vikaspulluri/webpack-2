@@ -1,21 +1,19 @@
 {
-  "name": "webpack-2",
+  "name": "webpack2-basics",
   "version": "1.0.0",
-  "description": "Simple application that demonstrates usage of webpack-2",
-  "main": "index.html",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
-    "build:prod": "webpack-dev-server src/js/app.js dist/bundle.js -p"
+    "build": "webpack-dev-server",
+    "build:prod": "webpack -p"
   },
-  "keywords": [
-    "webpack"
-  ],
-  "author": "Vikas Pulluri",
-  "license": "ISC",
+  "author": "",
+  "license": "MIT",
   "devDependencies": {
-    "webpack": "^2.7.0",
-    "webpack-cli": "^3.0.8",
-    "webpack-dev-server": "^2.11.2"
+    "css-loader": "^0.26.2",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
   }
 }
